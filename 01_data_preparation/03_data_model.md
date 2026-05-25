@@ -49,3 +49,7 @@ All relationships are configured as **1:N (One-to-Many)**, where the filter natu
 * `tbl_products[product_id]` (1) → `fact_order_items[product_id]` (*)
 * `dim_date[Date]` (1) → `fact_order_items[date_key]` (*)
 * `fact_order_items[order_id]` (*) → `tbl_reviews[order_id]` (1)
+
+
+
+![alt text](../99_key_findings/images/star_schema.png)

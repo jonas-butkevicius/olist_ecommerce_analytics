@@ -10,7 +10,7 @@ For months, the weekly dissatisfaction rate (the percentage of orders receiving 
 
 Starting in week **2018-07 (19%)**, the rate experienced a sharp upward trajectory, jumping to **24% in 2018-08** and reaching a massive peak of **29% in week 2018-09**. Nearly 1 in 3 customers were left highly dissatisfied. Fortunately, I observed the metric falling back to ~18% by 2018-12, confirming this was a severe temporary anomaly rather than a permanent structural decline.
 
-![Dissatisfaction Rate Trend](dissatisfaction_rate_peaked.png)
+![Dissatisfaction Rate Trend](images/dissatisfaction_rate_peaked.png)
 
 ---
 
@@ -20,7 +20,7 @@ To uncover the root cause, I isolated the weeks of the surge (**2018-08 to 2018-
 
 The raw volume data pointed a clear finger: **computers_accessories led the platform with 150 poor reviews**. This volume far outpaced the next closest categories, such as `bed_bath_table` (91 poor reviews) and `sports_leisure` (89 poor reviews). 
 
-![Poor Reviews by Category](computer_accesories_lead_the_spike.png)
+![Poor Reviews by Category](images/computer_accesories_lead_the_spike.png)
 
 ---
 
@@ -34,7 +34,7 @@ Before blaming logistics entirely, I analyzed whether specific defective product
 
 While I found these product-level trends to be significant, the widespread drop in satisfaction across multiple distinct IDs suggested a broader operational failure rather than isolated product defects.
 
-![Top 5 Poorly Reviewed Products](computer_accesories_top_5_poor_review_products.png)
+![Top 5 Poorly Reviewed Products](images/computer_accesories_top_5_poor_review_products.png)
 
 ---
 
@@ -48,5 +48,5 @@ My analysis revealed a clear operational breaking point at the **19-day delivery
 
 The single largest bubble I identified in the slow zone—representing a high-volume merchant with nearly 30 delivery days—dragged their average review score down to a dismal ~2.3. This clear bottleneck confirmed my conclusion that severe logistical delays were the primary driver behind the 2018-09 dissatisfaction spike.
 
-![Seller Delivery Time vs Review Score](slower_delivery_sellers.png)
+![Seller Delivery Time vs Review Score](images/slower_delivery_sellers.png)
 

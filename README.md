@@ -41,7 +41,7 @@ Before running the project, ensure you have the following installed on your loca
 1. **Clone the Repository**
    Open your Git terminal (`MINGW64` / Git Bash) and run:
    ```bash
-   git clone [https://github.com/jonas-butkevicius/olist_ecommerce_analytics.git](https://github.com/YOUR_USERNAME/olist_ecommerce_analytics.git)
+   git clone [https://github.com/jonas-butkevicius/olist_ecommerce_analytics.git](https://github.com/jonas-butkevicius/olist_ecommerce_analytics.git)
    cd olist_ecommerce_analytics
 
  Create venv

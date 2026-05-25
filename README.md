@@ -44,14 +44,14 @@ Before running the project, ensure you have the following installed on your loca
    git clone [https://github.com/jonas-butkevicius/olist_ecommerce_analytics.git](https://github.com/YOUR_USERNAME/olist_ecommerce_analytics.git)
    cd olist_ecommerce_analytics
 
-# Create venv
+ Create venv
 python -m venv venv
 
-# Activate venv (Windows Git Bash / MINGW64)
+ Activate venv (Windows Git Bash / MINGW64)
 source venv/Scripts/activate
 
-# Activate venv (Windows Command Prompt)
-# venv\Scripts\activate.bat
+ Activate venv (Windows Command Prompt)
+ venv\Scripts\activate.bat
 
 # 🛠️ Project Architecture & Technical Stack
 

@@ -36,23 +36,26 @@ Before running the project, ensure you have the following installed on your loca
 
 ---
 
-## 🛠️ Step 1: Environment Setup
+## 🛠️ Environment Setup
 
-1. **Clone the Repository**
-   Open your Git terminal (`MINGW64` / Git Bash) and run:
+1. **Clone and Setup Project Environment:**
+   Run the following commands in your Git terminal (`MINGW64` / Git Bash):
+
    ```bash
-   git clone [https://github.com/jonas-butkevicius/olist_ecommerce_analytics.git](https://github.com/jonas-butkevicius/olist_ecommerce_analytics.git)
+   # Clone the repository and enter the directory
+   git clone https://github.com/jonas-butkevicius/olist_ecommerce_analytics.git
    cd olist_ecommerce_analytics
 
- Create venv
-python -m venv venv
+   # Create virtual environment
+   python -m venv venv
 
- Activate venv (Windows Git Bash / MINGW64)
-source venv/Scripts/activate
+   # Activate virtual environment (Windows Git Bash / MINGW64)
+   source venv/Scripts/activate
 
- Activate venv (Windows Command Prompt)
- venv\Scripts\activate.bat
-
+   # Activate virtual environment (Windows Command Prompt)
+   venv\Scripts\activate
+   ```
+   
 # 🛠️ Project Architecture & Technical Stack
 
 ```text

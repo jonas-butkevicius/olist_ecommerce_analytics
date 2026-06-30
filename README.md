@@ -69,11 +69,14 @@ Before running the project, ensure you have the following installed on your loca
 
 ## 📂 File & Folder Descriptions
 
-### 🟢 `olist_dataset_clean.xlsx` (Core Data & Exploratory Analysis)
-Central master workbook housing the cleaned relational data and initial exploratory sheets used to validate early project hypotheses:
-* **`pivots`** — Aggregated summaries testing early assumptions on weekly order volumes, categories, revenues, and seller cohorts.
-* **`reference`** — Mapping tables, structural lookup variables, and core dataset definitions.
-* **`dissatisfaction rate charts`** — Early trend visualizations analyzing low review scores, delivery delays, and logistics friction.
+### 🟢 `olist_dataset_clean.xlsx` (Core Dashboards & Interactive Reports)
+
+The central master workbook housing advanced data models and professional dashboards. All internal Pivot Tables, raw aggregations, and technical reference data are **cleanly hidden** in the background to ensure a polished user experience, leaving 4 main interactive sheets visible:
+
+* **`Monthly Summary by category`** – A dynamic, high-level management dashboard featuring custom drop-down filters to track sales volumes, average order values (AOV), and Month-over-Month (MoM%) growth trends by specific product categories.
+* **`Delivery Matrix`** – An operational logistics heatmap detailing the average delivery times (in days) routed between different origin (Seller) and destination (Customer) states to identify shipping bottlenecks.
+* **`Payment Analysis`** – A financial distribution dashboard analyzing the e-commerce payment method mix (Credit Card vs. Boleto, etc.) and customer installment preferences by total value and order volume.
+* **`Dissatisfaction Rate Report`** – An in-depth analytical performance dashboard linking fulfillment delays with low review scores, explicitly mapping out bad customer experiences across specific product categories and seller regions.
 
 ### 📁 Data Engineering & Modeling (`/01_data_preparation`)
 Contains the relational architecture designs. The project implements a standard **Star Schema** data warehouse structure, linking localized order items (`fact_order_items`) out to dedicated dimension tables:

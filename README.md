@@ -4,6 +4,37 @@
 
 An end-to-end data analytics project focused on diagnosing a severe revenue drop within the **Sports & Leisure** category on the Olist e-commerce platform (Brazil). This project spans from raw data preparation and star-schema star modeling to Python-based advanced metric aggregation and Power BI visualization.
 
+## 📊 Interactive Excel Dashboards
+
+## Customer Dissatisfaction & Delivery Performance Analysis
+A diagnostic dashboard tracing a spike in customer dissatisfaction back to its
+root cause. 
+Dissatisfaction peaked at 29% in 2018-09, driven primarily by the Computers & Accessories 
+category. A delivery-time vs. review-score analysis shows that slower deliveries strongly 
+correlate with lower satisfaction — identifying fulfillment delays as the key bottleneck.
+![alt text](99_key_findings/images/dissatisfaction_delivery_analysis.png)
+
+### Monthly Summary (by category)
+Dynamic dashboard with a category dropdown, tracking revenue, AOV, MoM% growth, 
+late-delivery rate, and average review score per month.
+![alt text](99_key_findings/images/monthly_summary_by_category.png)
+
+### Delivery Time Matrix (Seller → Customer state)
+Heatmap of average delivery times between origin and destination states, used to spot shipping bottlenecks across Brazil.
+![alt text](99_key_findings/images/delivery_matrix_heatmap.png)
+
+### Payment Method & Installment Analysis
+Breakdown of payment mix (credit card vs. boleto) and installment-plan
+distribution by order volume and total value.
+![alt text](99_key_findings/images/payment_analysis_dashboard.png)
+
+
+## Interactive Power BI Dashboard
+
+Interactive overview of the Olist dataset with Year/Month slicers, KPI cards (sales, 
+AOV, freight ratio), and breakdowns by state, category, and top customers/products/sellers.
+![Olist Power BI Dashboard](99_key_findings/images/powerbi_olist_dataset_dashboard_.png)
+
 ## 📊 Core Business Key Findings
 
 ### Finding 1 — Early Revenue Drop Was Not Driven by Order Volume
